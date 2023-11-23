@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <header></header> -->
+    <header class="container text-center p-3"><h1>Cinema100</h1></header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Film</a>
+              <a class="nav-link active" aria-current="page" href="seat.html">Seat</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+      <div class="section">
+            <div id="layar"></div><br><br>
+        <table>
+            <tr>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A1</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A2</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A3</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A4</button></div></td>
+                <td></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A5</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A6</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A7</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">A8</button></div></td>
+            </tr>
+            <tr>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B1</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B2</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B3</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B4</button></div></td>
+                <td></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B5</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B6</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B7</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">B8</button></div></td>
+            </tr>
+            <tr>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C1</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C2</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C3</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C4</button></div></td>
+                <td></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C5</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C6</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C7</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">C8</button></div></td>
+            </tr>
+             <tr>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D1</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D2</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D3</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D4</button></div></td>
+                <td></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D5</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D6</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D7</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">D8</button></div></td>
+            </tr>
+            <tr>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E1</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E2</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E3</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E4</button></div></td>
+                <td></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E5</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E6</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E7</button></div></td>
+                <td><div><button onclick="tandai(this)" class="button"type="submit">E8</button></div></td>
+            </tr>
+        </table>
+        <div>
+            <button id="payment" type="submit"><h4>Submit</h4></button>
+        </div>
+      </div>
+      <div class="aside">
+        <h2>Judul Film</h2>
+        <div><br>
+            <img src="img/god.jpeg" alt="Poster Film"><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo numquam provident culpa, facilis repellat nulla.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid mt-5 text-center bg-primer" style="opacity: 0.5;">
+        <em>Alifadill - Cinema100@JagooIT</em>
+    </footer>
+    <script>
+        function tandai(button){
+            button.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+section{
+    margin: 0 10rem;
+}
+
+td{
+    padding:10px;
+}
+
+#layar{
+    background-color: black;
+    width: 20rem;
+    height: 10px;
+    margin-left: 75px;
+}
+
+button{
+    background-color: aliceblue;
+    border:none;
+    text-align: center;
+    padding: 8px;
+}
+
+.button.active{
+    background-color: greenyellow;
+}
+
+#payment{
+    margin-top: 1rem;
+    margin-left: 20rem;
+    background-color: rgb(0, 132, 255);
+    border: 2px white solid;
+    color: whitesmoke;
+    width: 10rem;
+    height: 3rem;
+}
+
+.container{
+    width: 100%;
+}
+
+.section{
+    float: left;
+    width: 70%;
+}
+
+.aside{
+    float: left;
+    width: 30%;
+}
+
+footer{
+    clear:left;
+    /* margin-top: 2rem !important;  */
+}
+
+
